@@ -11,12 +11,14 @@ SeleniumAutomation/
 ├── tests/
 │   ├── test_login.py        # Login test cases (valid & invalid credentials)
 │   └── test_signup.py       # Signup test cases (empty fields & invalid email)
+|
 ├── Utils/
-│   └── Config.py            # Configuration file (URLs, test data)
-├── conftest.py              # Pytest configuration & fixtures
+│   ├── Config.py            # Configuration file (URLs, test data)
+|   └──conftest.py           # Pytest configuration & fixtures
+|
 ├── requirements.txt         # Python dependencies
-├── test-case.md             # Detailed test case documentation
-└── README.md                # This file
+├── test-case.md             # Test Case Documentation
+└── README.md             
 ```
 
 ## Installation & Setup
