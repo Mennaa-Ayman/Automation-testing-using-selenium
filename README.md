@@ -1,20 +1,17 @@
 # Selenium Automation Testing Suite
 
-## Overview
-
 Selenium-based automation testing project for testing user authentication flows including login and signup functionality Validating successful and error scenarios.
 
 ## Project Structure
 
 ```
-SeleniumAutomation/
 ├── tests/
 │   ├── test_login.py        # Login test cases (valid & invalid credentials)
-│   └── test_signup.py       # Signup test cases (empty fields & invalid email)
+│   ├── test_signup.py       # Signup test cases (empty fields & invalid email)
+|   └── conftest.py           # Pytest configuration & fixtures
 |
 ├── Utils/
-│   ├── Config.py            # Configuration file (URLs, test data)
-|   └──conftest.py           # Pytest configuration & fixtures
+│   └── Config.py            # Configuration file (URLs, test data)
 |
 ├── requirements.txt         # Python dependencies
 ├── test-case.md             # Test Case Documentation
