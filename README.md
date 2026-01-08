@@ -1,6 +1,6 @@
-# Selenium Automation Testing Suite
+# Selenium Automation Testing
 
-Selenium-based automation testing project for testing user authentication flows including login and signup functionality Validating successful and error scenarios.
+Using Selenium-based automation for testing user authentication flows including login and signup functionality Validating successful and error scenarios.
 
 ## Project Structure
 
