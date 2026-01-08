@@ -6,11 +6,15 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pytest
 
 # Add the project root to the Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, project_root)
 
 @pytest.fixture
 def driver():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-    driver.maximize_window()
+    try:
+        driver.maximize_window()
+    except Exception:
+        pass  # maximize_window may fail in some environments, continue anyway
     yield driver
     driver.quit()
