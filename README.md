@@ -6,15 +6,15 @@ Selenium-based automation testing project for testing user authentication flows 
 
 ```
 ├── tests/
-│   ├── test_login.py        # Login test cases (valid & invalid credentials)
-│   ├── test_signup.py       # Signup test cases (empty fields & invalid email)
-|   └── conftest.py           # Pytest configuration & fixtures
+│   ├── test_login.py          # Login test cases (valid & invalid credentials)
+│   ├── test_signup.py         # Signup test cases (empty fields & invalid email)
+|   └── conftest.py            # Pytest configuration & fixtures
 |
 ├── Utils/
-│   └── Config.py            # Configuration file (URLs, test data)
+│   └── Config.py              # Configuration file (URLs, test data)
 |
-├── requirements.txt         # Python dependencies
-├── test-case.md             # Test Case Documentation
+├── requirements.txt           # Python dependencies
+├── test-case.md               # Test Case Documentation
 └── README.md             
 ```
 
